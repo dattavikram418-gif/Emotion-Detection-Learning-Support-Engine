@@ -1,0 +1,44 @@
+{
+  "users": {
+    "student@example.com": {
+      "email": "student@example.com",
+      "name": "Alex Learner",
+      "role": "student",
+      "loginCount": 1,
+      "createdAt": "2026-07-14T18:33:11.434Z",
+      "passwordHash": "password123"
+    },
+    "educator@example.com": {
+      "email": "educator@example.com",
+      "name": "Professor Smith",
+      "role": "educator",
+      "loginCount": 1,
+      "createdAt": "2026-07-14T18:33:11.434Z",
+      "passwordHash": "password123"
+    }
+  },
+  "records": [
+    {
+      "recordId": "rec_62pz30zun",
+      "email": "student@example.com",
+      "field": "Computer Science",
+      "inputText": "learning c language",
+      "predictedEmotion": "Curious",
+      "secondaryEmotion": null,
+      "confidenceScore": 0.748,
+      "modelUsed": "BERT",
+      "aiResponse": "### 🧐 Curious detected!\n\nCuriosity is the ultimate fuel of all scientific and creative breakthroughs! It is wonderful that you are asking deep questions and want to explore further. Let's harness this inquisitive energy.\n\n#### 📋 Recommended Next Steps in Computer Science:\n1. Research academic papers, high-level articles, or advanced video lectures on this specific question.\n2. Run a small test or ask 'what if' to experiment with edge cases.\n3. Note down related questions and see if you can trace them to a unified theory.",
+      "responseType": "Template",
+      "emotionScores": {
+        "Bored": 0.0626,
+        "Confident": 0.0665,
+        "Confused": 0.059,
+        "Curious": 0.748,
+        "Frustrated": 0.0639
+      },
+      "timestamp": "2026-07-14T18:33:42.387Z",
+      "csvLogged": true,
+      "cleanedText": "learning c language"
+    }
+  ]
+}

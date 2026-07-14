@@ -1,0 +1,6 @@
+{
+  "name": "AI Learning Assistant",
+  "description": "An emotion-aware educational companion that analyzes learner feelings using BERT and BiLSTM classifiers and provides personalized empathetic support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
